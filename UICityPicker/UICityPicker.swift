@@ -18,7 +18,7 @@ open class UICityPicker: NSObject {
         
         alertController.view.addSubview(datePicker)//add subview
         
-        let cancelAction = UIAlertAction(title: "cancle", style: UIAlertActionStyle.cancel, handler: nil);
+        let cancelAction = UIAlertAction(title: "cancel", style: UIAlertActionStyle.cancel, handler: nil);
         //add button to action sheet
         alertController.addAction(cancelAction)
         
