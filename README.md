@@ -32,6 +32,7 @@ let cityPickView = cityPick.presentCityPicker(viewController: self)
 cityPickView.cityPickerDelegate = self
 ```
 
+![image](https://github.com/dingqili/UICityPicker/blob/master/Screenshots/thumb_IMG_0575_1024.jpg)
 
 
 Have fun! :)
