@@ -29,6 +29,7 @@ open class UICityPickerView: UIPickerView {
         didSet{
             self.reloadComponent(2)
             self.selectRow(0, inComponent: 2, animated: true)
+            self.stringOfDistrict = districtDictionary[stringOfCity]?.first ?? "";
         }
     }
     fileprivate var stringOfDistrict: String = "" {
@@ -37,7 +38,7 @@ open class UICityPickerView: UIPickerView {
         }
     }
 
-    open weak var uiCityPickerViewDelegate:UICityPickerViewDelegate?
+    open weak var cityPickerDelegate:UICityPickerViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -86,7 +87,7 @@ open class UICityPickerView: UIPickerView {
     
     
     func didSelect(){
-        uiCityPickerViewDelegate?.cityPickerView(uIPickerView: self, didSelect: self.stringOfProvince, city: self.stringOfCity, district: self.stringOfDistrict);
+        cityPickerDelegate?.cityPickerView(uIPickerView: self, didSelect: self.stringOfProvince, city: self.stringOfCity, district: self.stringOfDistrict);
     }
 }
 
