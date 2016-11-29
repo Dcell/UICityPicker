@@ -1,6 +1,7 @@
 # UICityPicker
 
 A simple city selector
+一个简单的城市选择器
 
 
 ##Requirements
