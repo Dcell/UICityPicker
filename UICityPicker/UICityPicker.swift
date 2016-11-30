@@ -18,11 +18,6 @@ open class UICityPicker: NSObject {
         
         alertController.view.addSubview(datePicker)//add subview
         
-        let cancelAction = UIAlertAction(title: "cancel", style: UIAlertActionStyle.cancel, handler: nil);
-        //add button to action sheet
-        alertController.addAction(cancelAction)
-        
-        
         let height:NSLayoutConstraint = NSLayoutConstraint(item: alertController.view, attribute: NSLayoutAttribute.height, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant: 300)
         alertController.view.addConstraint(height);
         
