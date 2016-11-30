@@ -18,6 +18,8 @@ open class UICityPicker: NSObject {
         
         alertController.view.addSubview(datePicker)//add subview
         
+        alertController.addAction(UIAlertAction(title: "取消", style: UIAlertActionStyle.cancel, handler: nil));
+        
         let height:NSLayoutConstraint = NSLayoutConstraint(item: alertController.view, attribute: NSLayoutAttribute.height, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant: 300)
         alertController.view.addConstraint(height);
         
