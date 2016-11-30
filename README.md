@@ -13,8 +13,8 @@ A simple city selector
 
 ```ruby
 use_frameworks!
-pod 'UICityPicker', '~> 1.0.0'
-pod 'UICityPicker' , :git => "https://github.com/dingqili/UICityPicker.git", :tag => "~> 1.0.0"
+pod 'UICityPicker', '~> 1.0.5'
+pod 'UICityPicker' , :git => "https://github.com/dingqili/UICityPicker.git", :tag => "1.0.5"
 ```
 
 ##Usage

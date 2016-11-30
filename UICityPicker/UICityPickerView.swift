@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+@objc
 public protocol UICityPickerViewDelegate:NSObjectProtocol {
     func cityPickerView(uIPickerView:UIPickerView,didSelect province:String,city:String,district:String)
 }
