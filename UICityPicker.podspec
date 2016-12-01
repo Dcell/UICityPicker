@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UICityPicker"
-  s.version      = "1.0.5"
+  s.version      = "1.0.0"
   s.summary      = "UIPicker for city"
 
   s.description  = "UIPicker for city"
