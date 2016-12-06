@@ -13,8 +13,7 @@ A simple city selector
 
 ```ruby
 use_frameworks!
-pod 'UICityPicker', '~> 1.0.0'
-pod 'UICityPicker' , :git => "https://github.com/dingqili/UICityPicker.git", :tag => "1.0.0"
+pod 'UICityPicker' , :git => "https://github.com/Dcell/UICityPicker.git", :tag => "1.0.0"
 ```
 
 ##Usage
@@ -33,7 +32,7 @@ let cityPickView = cityPick.presentCityPicker(viewController: self)
 cityPickView.cityPickerDelegate = self
 ```
 
-![image](https://github.com/dingqili/UICityPicker/blob/master/Screenshots/thumb_IMG_0575_1024.jpg)
+![image](https://github.com/Dcell/UICityPicker/blob/master/Screenshots/thumb_IMG_0575_1024.jpg)
 
 
 Have fun! :)
