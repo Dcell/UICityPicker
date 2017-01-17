@@ -133,7 +133,7 @@ extension UICityPickerView:UIPickerViewDelegate{
     public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         switch component {
         case 0:
-            self.stringOfProvince = provinceList[row] ?? "";
+            self.stringOfProvince = provinceList[row];
         case 1:
             self.stringOfCity = cityDictionary[stringOfProvince]?[row] ?? "";
         case 2:
